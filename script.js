@@ -14,7 +14,7 @@ shareBtn.addEventListener("click", () => {
   if (clickCount < 5) {
     clickCount++;
    const message = encodeURIComponent("Hey Buddy, Join Tech For Girls Community 👩‍💻🚀\n\nRegister here: https://rachabantivamsi.github.io/Tech-for-girls-registrations-/");
-window.open(https://wa.me/?text=${message}, "_blank");
+window.open('https://wa.me/?text=${message}', "_blank");
     clickCountText.textContent = `Click count: ${clickCount}/5`;
 
     if (clickCount >= 5) {
